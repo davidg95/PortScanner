@@ -172,9 +172,9 @@
       <SubComponents>
         <Component class="javax.swing.JTextField" name="txtAddress">
           <Properties>
-            <Property name="toolTipText" type="java.lang.String" value="Must be in range 0 - 65535"/>
+            <Property name="toolTipText" type="java.lang.String" value="Enter an address to scan"/>
             <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
-              <ComponentRef name="default"/>
+              <ComponentRef name="txtTimeout"/>
             </Property>
           </Properties>
           <Events>

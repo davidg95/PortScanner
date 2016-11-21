@@ -121,7 +121,8 @@ public class GUI extends javax.swing.JFrame {
         panelScan.setMinimumSize(new java.awt.Dimension(417, 95));
         panelScan.setPreferredSize(new java.awt.Dimension(417, 95));
 
-        txtAddress.setToolTipText("Must be in range 0 - 65535");
+        txtAddress.setToolTipText("Enter an address to scan");
+        txtAddress.setNextFocusableComponent(txtTimeout);
         txtAddress.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtAddressActionPerformed(evt);
