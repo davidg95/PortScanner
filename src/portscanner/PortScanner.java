@@ -164,7 +164,8 @@ public class PortScanner {
 
         if (gui) {
             g.complete();
-            g.log("Scan complete in " + (duration / 1000) + "s!");
+            double dur = duration;
+            g.log("Scan complete in " + (dur / 1000) + "s!");
             if (ports.isEmpty() && possiblePorts.isEmpty()) {
                 g.log("No servers found on IP address " + IP);
             } else {
