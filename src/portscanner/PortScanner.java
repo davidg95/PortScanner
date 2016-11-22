@@ -194,7 +194,7 @@ public class PortScanner {
                 
                 if (save) {
                     try {
-                        File file = new File("ports.txt");
+                        File file = new File(IP + ".txt");
                         file.delete();
                         try (FileWriter writer = new FileWriter(file, true); PrintWriter out = new PrintWriter(writer)) {
                             ports.forEach((port) -> {
